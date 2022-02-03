@@ -27,7 +27,7 @@
                                 <rect key="frame" x="77" y="593" width="260" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.25098039220000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="En4-fw-6i1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="En4-fw-6i1"/>
                                     <constraint firstAttribute="height" constant="50" id="vnu-si-IjM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
@@ -42,7 +42,7 @@
                                 <rect key="frame" x="77" y="663" width="115" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="eyn-YF-kYq"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="115" id="eyn-YF-kYq"/>
                                     <constraint firstAttribute="height" constant="50" id="k8E-WR-QkO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
@@ -57,7 +57,7 @@
                                 <rect key="frame" x="222" y="663" width="115" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="Ici-7I-hhb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="115" id="Ici-7I-hhb"/>
                                     <constraint firstAttribute="height" constant="50" id="bqb-W9-tYc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
@@ -77,8 +77,9 @@
                             <constraint firstItem="ZdH-yw-6ab" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-80" id="5kW-eu-ih5"/>
                             <constraint firstItem="ZdH-yw-6ab" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ET0-lQ-XbO"/>
                             <constraint firstItem="cZC-zE-EfU" firstAttribute="trailing" secondItem="apG-gg-keb" secondAttribute="trailing" id="SdH-qV-EWZ"/>
+                            <constraint firstItem="cZC-zE-EfU" firstAttribute="leading" secondItem="zko-WD-JBd" secondAttribute="trailing" constant="30" id="gMt-eT-NsD"/>
                             <constraint firstItem="apG-gg-keb" firstAttribute="top" secondItem="ZdH-yw-6ab" secondAttribute="bottom" constant="50" id="nck-2D-ijh"/>
-                            <constraint firstItem="zko-WD-JBd" firstAttribute="leading" secondItem="apG-gg-keb" secondAttribute="leading" id="qTK-fX-o7B"/>
+                            <constraint firstItem="zko-WD-JBd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="apG-gg-keb" secondAttribute="leading" id="qTK-fX-o7B"/>
                             <constraint firstItem="cZC-zE-EfU" firstAttribute="top" secondItem="apG-gg-keb" secondAttribute="bottom" constant="20" id="yu5-y5-tG5"/>
                             <constraint firstItem="zko-WD-JBd" firstAttribute="top" secondItem="apG-gg-keb" secondAttribute="bottom" constant="20" id="zUH-IR-9Sn"/>
                         </constraints>
