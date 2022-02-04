@@ -65,7 +65,6 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Rules"/>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hpr-LJ-vUN"/>
                                     <segue destination="PRx-Rb-YE6" kind="presentation" id="oA6-iM-KEg"/>
                                 </connections>
                             </button>
